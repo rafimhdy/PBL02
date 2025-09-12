@@ -15,19 +15,38 @@
                 keterangan = "Anda Perjaka";
     } else if (nama === "agil"  && kelamin === "l" && status === "kawin") {
                 keterangan = "Anda Menikah";
-    }  else if (nama === "ahmad"  && kelamin === "l" && status === "cerai") {
+    } else if (nama === "ahmad"  && kelamin === "l" && status === "cerai") {
                 keterangan = "Anda Duda";
-    }  else if (nama === "setyowati" && kelamin === "p" && status === "sendiri") {
+    } else if (nama === "setyowati" && kelamin === "p" && status === "sendiri") {
                 keterangan = "Anda Perawan";
-    }  else if (nama === "neneng"  && kelamin === "p" && status === "kawin") {
+    } else if (nama === "neneng"  && kelamin === "p" && status === "kawin") {
                 keterangan = "Anda Menikah";
-    }  else if (nama === "iis"  && kelamin === "p" && status === "cerai") {
+    } else if (nama === "iis"  && kelamin === "p" && status === "cerai") {
                 keterangan = "Anda Janda";
     } else {
         keterangan = "Tolong Masukan Informasi Anda dengan Tepat";
     }
 
     document.write("<h1>" + keterangan + "</h1>");
+
+    // Cara Kedua
+    // if (kelamin === "l" && status === "sendiri") {
+    //     keterangan = "Anda Perjaka";
+    // } else if (kelamin === "l" && status === "kawin") {
+    //     keterangan = "Anda Menikah";
+    // } else if (kelamin === "l" && status === "cerai") {
+    //     keterangan = "Anda Menikah";
+    // } else if (kelamin === "p" && status === "sendiri") {
+    //     keterangan = "Anda Menikah";
+    // } else if (kelamin === "p" && status === "kawin") {
+    //     keterangan = "Anda Menikah";
+    // } else if (kelamin === "p" && status === "sendiri") {
+    //     keterangan = "Anda Menikah";
+    // } else {
+    //     keterangan = "Tolong Masukan Informasi Anda dengan Tepat";
+    // }
+    // document.write("Nama Anda: " + nama + ". Keterangan: " + keterangan);
+
 </script>
 </body>
 </html>
