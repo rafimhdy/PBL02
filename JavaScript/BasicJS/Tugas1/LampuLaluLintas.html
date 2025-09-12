@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lampu Lalu Lintas</title>
+</head>
+<body>
+<script>
+    let merah = "Kendaraan berhenti";
+    let kuning = "Kendaraan berhati-hati";
+    let hijau = "Kendaraan berjalan"
+    let input = prompt("Warna lampu lalu lintas apa yang Anda lihat? \n1. Merah \n2. Kuning \n3. Hijau").toLowerCase();
+    if (input === "merah")
+        document.write(merah)
+    else if (input === "kuning")
+        document.write(kuning)
+    else if (input === "hijau")
+        document.write(hijau)
+    else
+        document.write("Warna Tidak Terverifikasi")
+
+    // Cara Bapak Septian
+
+    // let warna=prompt("Masukan warna lampu lalu lintas yang anda lihat: (Merah, Kuning, Hijau) ").toLowerCase();
+    // let pesan;
+    //
+    // if (warna === "merah"){
+    //     pesan =  "berhenti";
+    // } else if (warna === "kuning") {
+    //     pesan = "berhati-hati";
+    // } else if (warna === "hijau") {
+    //
+    //     pesan = "maju";
+    // } else {
+    //     pesan = "warna tidak terverifikasi";
+    // }
+    //
+    // document.write("<h2>Anda sedang melihat lampu " + warna + ". Artinya " + pesan + ".</h2>");
+</script>
+</body>
+</html>
