@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Keterangan</title>
+</head>
+<body>
+<script>
+    let nama = prompt("Masukan Nama Anda: (Tono/Agil/Ahmad/Setyowati/Neneng/Iis)").toLowerCase().trim();
+    let kelamin= prompt("Masukan Jenis Kelamin Anda: (L/P)").toLowerCase().trim();
+    let status= prompt("Masukan Status Anda: (Sendiri/Kawin/Cerai)").toLowerCase().trim();
+    let keterangan;
+
+    if (nama === "tono" && kelamin === "l" && status === "sendiri") {
+                keterangan = "Anda Perjaka";
+    } else if (nama === "agil"  && kelamin === "l" && status === "kawin") {
+                keterangan = "Anda Menikah";
+    }  else if (nama === "ahmad"  && kelamin === "l" && status === "cerai") {
+                keterangan = "Anda Duda";
+    }  else if (nama === "setyowati" && kelamin === "p" && status === "sendiri") {
+                keterangan = "Anda Perawan";
+    }  else if (nama === "neneng"  && kelamin === "p" && status === "kawin") {
+                keterangan = "Anda Menikah";
+    }  else if (nama === "iis"  && kelamin === "p" && status === "cerai") {
+                keterangan = "Anda Janda";
+    } else {
+        keterangan = "Tolong Masukan Informasi Anda dengan Tepat";
+    }
+
+    document.write("<h1>" + keterangan + "</h1>");
+</script>
+</body>
+</html>
